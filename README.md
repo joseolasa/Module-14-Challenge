@@ -25,7 +25,7 @@ Training window = 3
 Adjusting SAM windows
 adjusting the SAM short windows from 4-6 caused the model to start overfitting the data. The precision goes to 1 for the buy signal, but the sell signal goes to 0. The result is the same as a buy-and-hold strategy. 
 ![output](images/Output%202%20results.png)
-![output](images/Output%202%20results.png)
+![output](images/output%202%20change%20to%20time.png)
 
 
 Reducing the long window down helped improve the return towards the end of the evaluation window. 
